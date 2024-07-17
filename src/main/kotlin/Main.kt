@@ -1,3 +1,9 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+    println("Добро пожаловать в консольное приложение \"Заметки\"")
+
+    val archives = ArchivesDB("База данных архивов")
+
+    ScreenManager.start(archives)
+
+    println("Работа приложения завершена")
 }
